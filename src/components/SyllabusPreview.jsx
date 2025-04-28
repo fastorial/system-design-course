@@ -67,8 +67,8 @@ const SyllabusPreview = () => {
 									</h4>
 									<ul className="space-y-1 mb-4">
 										{module.topics.map((topic, i) => (
-											<>
-												<li key={i} className="flex justify-between">
+											<React.Fragment key={i}>
+												<li className="flex justify-between">
 													<span>
 														<span className="text-green-500 mr-2">
 															✓
@@ -110,7 +110,7 @@ const SyllabusPreview = () => {
 														</li>
 													))}
 												</ul>
-											</>
+											</React.Fragment>
 										))}
 									</ul>
 								</div>
@@ -123,7 +123,9 @@ const SyllabusPreview = () => {
 							Full curriculum includes 30+ hours of video lessons, exercises, and
 							practical projects.
 						</p>
-						<Button size="lg" onClick={scrollToCallToAction}>Join Waitlist for Full Access</Button>
+						<Button size="lg" onClick={scrollToCallToAction}>
+							Join Waitlist for Full Access
+						</Button>
 					</div>
 				</div>
 			</div>
