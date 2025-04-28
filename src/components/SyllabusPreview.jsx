@@ -2,84 +2,11 @@ import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, BookOpen, Unlock } from 'lucide-react';
 import SectionTitle from './ui/SectionTitle';
 import Button from './ui/Button';
-
-const modules = [
-  {
-    id: 1,
-    title: 'Introduction to System Design',
-    description: 'Learn the fundamentals of system design and why it matters for both interviews and real engineering.',
-    topics: [
-      'What is System Design?',
-      'The System Design Interview Process',
-      'Core Design Principles',
-      'Approaching Design Problems Methodically'
-    ],
-    bonus: 'Free Preview Available!'
-  },
-  {
-    id: 2,
-    title: 'Core Concepts and Terminology',
-    description: 'Master the essential vocabulary and concepts that form the foundation of all system design.',
-    topics: [
-      'Scalability: Horizontal vs. Vertical',
-      'Load Balancing Strategies',
-      'Caching Mechanisms',
-      'Database Choices: SQL vs. NoSQL'
-    ],
-    bonus: 'Cheatsheet Download!'
-  },
-  {
-    id: 3,
-    title: 'System Design Fundamentals',
-    description: 'Dive deep into the building blocks that make up modern distributed systems.',
-    topics: [
-      'Consistency vs. Availability (CAP Theorem)',
-      'Replication and Partitioning',
-      'Proxies and Load Balancers',
-      'Message Queues and Event-Driven Design'
-    ],
-    bonus: 'Mindmaps Available!'
-  },
-  {
-    id: 4,
-    title: 'Design Scenarios',
-    description: 'Apply your knowledge to real-world design problems and common interview questions.',
-    topics: [
-      'Designing a URL Shortener',
-      'Building a Video Streaming Service',
-      'Creating a Social Network Feed',
-      'Implementing a Distributed Cache'
-    ],
-    bonus: 'Sample Lessons Free!'
-  },
-  {
-    id: 5, 
-    title: 'Advanced Topics & Real-World Tradeoffs',
-    description: 'Explore complex considerations that separate junior from senior system designers.',
-    topics: [
-      'System Monitoring and Alerting',
-      'Handling Failures Gracefully',
-      'Cost Optimization Strategies',
-      'Performance vs. Reliability Tradeoffs'
-    ],
-    bonus: 'Free Templates!'
-  },
-  {
-    id: 6,
-    title: 'Interview & Real-World Readiness',
-    description: 'Prepare specifically for interview success while building practical skills for on-the-job challenges.',
-    topics: [
-      'Interview Communication Strategies',
-      'Handling Ambiguous Requirements',
-      'Drawing Clear, Effective Diagrams',
-      'Future-Proofing Your Designs'
-    ],
-    bonus: 'Bonus Tips & Tricks!'
-  }
-];
+import content from '../data/content.json';
 
 const SyllabusPreview = () => {
-  const [openModule, setOpenModule] = useState(null);
+  const [openModule, setOpenModule] = useState(1);
+  const { title, subtitle, modules } = content.syllabus;
 
   const toggleModule = (id) => {
     setOpenModule(openModule === id ? null : id);
@@ -89,8 +16,8 @@ const SyllabusPreview = () => {
     <section id="syllabus" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <SectionTitle 
-          title="Course Syllabus Preview" 
-          subtitle="Comprehensive curriculum designed to take you from fundamentals to advanced system design mastery"
+          title={title}
+          subtitle={subtitle}
         />
         
         <div className="max-w-3xl mx-auto">

@@ -1,0 +1,313 @@
+{
+  "siteInfo": {
+    "title": "SystemDesignPro",
+    "description": "Master System Design for Interviews and Real World",
+    "metaDescription": "Learn system design from an experienced lead engineer. Crush tech interviews and build better systems. Join 1300+ engineers already on the waitlist.",
+    "ogTitle": "SystemDesignPro - Master System Design",
+    "ogDescription": "Learn system design from an experienced lead engineer. Crush tech interviews and build better systems."
+  },
+  "hero": {
+    "title": "Master System Design —",
+    "highlight": "Crush Interviews, Build Real Systems",
+    "subtitle": "Learn from a Lead Engineer with 8+ years of experience.",
+    "description": "Interview smarter. Design better. Get hired faster.",
+    "stats": {
+      "engineersJoined": 1327,
+      "rating": 4.9,
+      "bonusCount": 6
+    },
+    "cta": "Join Waitlist"
+  },
+  "whyThisCourse": {
+    "title": "Why You'll Love This Course",
+    "subtitle": "We've built this course to be practical, comprehensive, and directly applicable to both interviews and real-world engineering.",
+    "features": [
+      {
+        "title": "Interview-Ready System Designs",
+        "description": "Learn exactly what tech companies look for in system design interviews, with real examples.",
+        "icon": "Target"
+      },
+      {
+        "title": "High-Quality Diagrams and Visuals",
+        "description": "Visualize complex systems with professionally crafted diagrams that clarify concepts.",
+        "icon": "Monitor"
+      },
+      {
+        "title": "Always Up-to-date Content",
+        "description": "The tech world evolves rapidly, and so does our content. Stay current with the latest approaches.",
+        "icon": "RefreshCw"
+      },
+      {
+        "title": "Design 9 Real-World Systems",
+        "description": "Build practical systems like Netflix, Twitter, Uber and more from the ground up.",
+        "icon": "Code"
+      },
+      {
+        "title": "Free Cheatsheets & Templates",
+        "description": "Get downloadable resources to reference during interviews and when building systems.",
+        "icon": "FileCheck"
+      },
+      {
+        "title": "Lifetime Access and Updates",
+        "description": "Buy once, benefit forever. Receive all future updates at no extra cost.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Fast, Practical Learning — No Fluff",
+        "description": "Concise, focused content that respects your time and delivers maximum value.",
+        "icon": "Zap"
+      }
+    ]
+  },
+  "syllabus": {
+    "title": "Course Syllabus Preview",
+    "subtitle": "Comprehensive curriculum designed to take you from fundamentals to advanced system design mastery",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to System Design",
+        "description": "Learn the fundamentals of system design and why it matters for both interviews and real engineering.",
+        "topics": [
+          "What is System Design?",
+          "The System Design Interview Process",
+          "Core Design Principles",
+          "Approaching Design Problems Methodically"
+        ],
+        "bonus": "Free Preview Available!"
+      },
+      {
+        "id": 2,
+        "title": "Core Concepts and Terminology",
+        "description": "Master the essential vocabulary and concepts that form the foundation of all system design.",
+        "topics": [
+          "Scalability: Horizontal vs. Vertical",
+          "Load Balancing Strategies",
+          "Caching Mechanisms",
+          "Database Choices: SQL vs. NoSQL"
+        ],
+        "bonus": "Cheatsheet Download!"
+      },
+      {
+        "id": 3,
+        "title": "System Design Fundamentals",
+        "description": "Dive deep into the building blocks that make up modern distributed systems.",
+        "topics": [
+          "Consistency vs. Availability (CAP Theorem)",
+          "Replication and Partitioning",
+          "Proxies and Load Balancers",
+          "Message Queues and Event-Driven Design"
+        ],
+        "bonus": "Mindmaps Available!"
+      },
+      {
+        "id": 4,
+        "title": "Design Scenarios",
+        "description": "Apply your knowledge to real-world design problems and common interview questions.",
+        "topics": [
+          "Designing a URL Shortener",
+          "Building a Video Streaming Service",
+          "Creating a Social Network Feed",
+          "Implementing a Distributed Cache"
+        ],
+        "bonus": "Sample Lessons Free!"
+      },
+      {
+        "id": 5,
+        "title": "Advanced Topics & Real-World Tradeoffs",
+        "description": "Explore complex considerations that separate junior from senior system designers.",
+        "topics": [
+          "System Monitoring and Alerting",
+          "Handling Failures Gracefully",
+          "Cost Optimization Strategies",
+          "Performance vs. Reliability Tradeoffs"
+        ],
+        "bonus": "Free Templates!"
+      },
+      {
+        "id": 6,
+        "title": "Interview & Real-World Readiness",
+        "description": "Prepare specifically for interview success while building practical skills for on-the-job challenges.",
+        "topics": [
+          "Interview Communication Strategies",
+          "Handling Ambiguous Requirements",
+          "Drawing Clear, Effective Diagrams",
+          "Future-Proofing Your Designs"
+        ],
+        "bonus": "Bonus Tips & Tricks!"
+      }
+    ]
+  },
+  "resources": {
+    "title": "Instant Free Bonuses When You Join the Waitlist",
+    "subtitle": "Get immediate value while waiting for the full course to launch",
+    "items": [
+      {
+        "id": 1,
+        "title": "System Design Cheatsheet",
+        "description": "A comprehensive PDF covering all key system design concepts and patterns",
+        "icon": "FileText",
+        "bgColor": "bg-blue-50",
+        "iconColor": "text-blue-600"
+      },
+      {
+        "id": 2,
+        "title": "Beginner-to-Advanced Roadmap",
+        "description": "Step-by-step guide to mastering system design, from fundamentals to expert topics",
+        "icon": "Map",
+        "bgColor": "bg-green-50",
+        "iconColor": "text-green-600"
+      },
+      {
+        "id": 3,
+        "title": "30+ Real Interview Questions",
+        "description": "Actual system design questions asked at top tech companies with solution approaches",
+        "icon": "HelpCircle",
+        "bgColor": "bg-purple-50",
+        "iconColor": "text-purple-600"
+      },
+      {
+        "id": 4,
+        "title": "Free Preview Lessons",
+        "description": "Get access to selected video lessons from the course to experience the teaching style",
+        "icon": "Play",
+        "bgColor": "bg-red-50",
+        "iconColor": "text-red-600"
+      },
+      {
+        "id": 5,
+        "title": "Mindmaps for Faster Revision",
+        "description": "Visual study guides to help you remember key concepts before interviews",
+        "icon": "FileTerminal",
+        "bgColor": "bg-amber-50",
+        "iconColor": "text-amber-600"
+      },
+      {
+        "id": 6,
+        "title": "Templates for Designing Systems",
+        "description": "Ready-to-use templates for diagramming and documenting your system designs",
+        "icon": "LayoutTemplate",
+        "bgColor": "bg-teal-50",
+        "iconColor": "text-teal-600"
+      }
+    ]
+  },
+  "instructor": {
+    "name": "Anu Shibin Joseph Raj",
+    "role": "Lead Software Engineer",
+    "linkedIn": "https://www.linkedin.com/in/anushibinj/",
+    "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "stats": {
+      "experience": "8+ years experience",
+      "interviews": "Interviewed 500+ candidates",
+      "background": "Ex-FAANG engineer"
+    },
+    "bio": [
+      "I'm passionate about demystifying system design for engineers at all levels. After conducting hundreds of technical interviews and building large-scale systems myself, I've distilled what actually matters both for interviews and real-world engineering.",
+      "My teaching approach focuses on practical knowledge that you can apply immediately—no unnecessary theory or complicated jargon. Just clear, actionable insights from someone who's been on both sides of the interview table."
+    ]
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Alex Chen",
+      "role": "Senior Software Engineer",
+      "content": "This course explains system design like no other — simple, practical, and interview-focused! I received multiple offers after applying what I learned.",
+      "rating": 5,
+      "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "role": "Backend Developer",
+      "content": "Finally, a course that connects theory to real-world system building! I used the techniques from module 4 in my recent work project and got praise from my tech lead.",
+      "rating": 5,
+      "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 3,
+      "name": "Michael Torres",
+      "role": "Full Stack Engineer",
+      "content": "The diagrams and visual explanations made complex topics easy to understand. Before this course, I would panic when asked about system design in interviews.",
+      "rating": 4,
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What if I'm a beginner in system design?",
+      "answer": "This course is designed for all levels, from beginners to advanced engineers. We start with fundamentals and gradually build up to complex concepts. The modular structure allows you to learn at your own pace and revisit topics as needed."
+    },
+    {
+      "id": 2,
+      "question": "Will this course help me for FAANG interviews?",
+      "answer": "Absolutely! The course includes actual interview questions from top tech companies including FAANG. We cover the exact methodologies and frameworks that interviewers look for, with a focus on clear communication and proper analysis of requirements and tradeoffs."
+    },
+    {
+      "id": 3,
+      "question": "When will the course launch?",
+      "answer": "The course is scheduled to launch in Q3 2025. By joining the waitlist now, you'll get early access, special pricing, and immediate access to the free resources mentioned above."
+    },
+    {
+      "id": 4,
+      "question": "How much will the course cost?",
+      "answer": "The regular price will be $299, but waitlist members will receive a special early-bird discount. We're committed to providing exceptional value, which is why the course includes lifetime updates at no additional cost."
+    },
+    {
+      "id": 5,
+      "question": "Will I get a certificate?",
+      "answer": "Yes, upon completion of the course, you will receive a certificate that you can add to your LinkedIn profile and resume. However, the real value is in the knowledge and skills you'll gain, which will translate directly to interview success and on-the-job performance."
+    },
+    {
+      "id": 6,
+      "question": "How is this different from free YouTube tutorials?",
+      "answer": "While free resources can be helpful, they often lack structure, depth, and real-world context. This course provides a systematic approach, professional-quality diagrams, comprehensive explanations of tradeoffs, and practical exercises that reinforce your learning—all from an experienced engineer who has both built large-scale systems and conducted hundreds of technical interviews."
+    }
+  ],
+  "footer": {
+    "quickLinks": [
+      {
+        "title": "Home",
+        "href": "#"
+      },
+      {
+        "title": "Syllabus",
+        "href": "#syllabus"
+      },
+      {
+        "title": "Free Resources",
+        "href": "#bonuses"
+      },
+      {
+        "title": "About",
+        "href": "#about"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Blog",
+        "href": "#"
+      },
+      {
+        "title": "FAQs",
+        "href": "#faqs"
+      },
+      {
+        "title": "Support",
+        "href": "#"
+      },
+      {
+        "title": "Privacy Policy",
+        "href": "#"
+      }
+    ],
+    "contact": {
+      "email": "info@systemdesignpro.com"
+    },
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "youtube": "#"
+    }
+  }
+}

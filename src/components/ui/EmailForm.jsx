@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from './Button';
+import content from '../../data/content.json';
 
 const EmailForm = () => {
   const [email, setEmail] = useState('');
@@ -56,7 +57,7 @@ const EmailForm = () => {
           disabled={isSubmitting}
           className="whitespace-nowrap"
         >
-          {isSubmitting ? 'Joining...' : isSubmitted ? 'Success! ✓' : 'Join 1300+ Engineers'}
+          {isSubmitting ? 'Joining...' : isSubmitted ? 'Success! ✓' : `Join ${content.hero.stats.engineersJoined}+ Engineers`}
         </Button>
       </form>
     </div>
