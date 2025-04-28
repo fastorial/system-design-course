@@ -311,7 +311,7 @@
 		{
 			"id": 4,
 			"question": "How much will the course cost?",
-			"answer": "The regular price will be $299, but waitlist members will receive a special early-bird discount. We're committed to providing exceptional value, which is why the course includes lifetime updates at no additional cost."
+			"answer": "The regular price will be ₹3000, but waitlist members will receive a special early-bird discount. I'm committed to providing exceptional value, which is why the course includes lifetime updates at no additional cost."
 		},
 		{
 			"id": 5,
@@ -321,7 +321,7 @@
 		{
 			"id": 6,
 			"question": "How is this different from free YouTube tutorials?",
-			"answer": "While free resources can be helpful, they often lack structure, depth, and real-world context. This course provides a systematic approach, professional-quality diagrams, comprehensive explanations of tradeoffs, and practical exercises that reinforce your learning—all from an experienced engineer who has both built large-scale systems and conducted hundreds of technical interviews."
+			"answer": "While free resources can be helpful, they often lack structure, depth, and real-world context. This course provides a systematic approach, professional-quality diagrams, comprehensive explanations of tradeoffs, and practical exercises that reinforce your learning - all from an experienced engineer who has both built large-scale systems and conducted hundreds of technical interviews."
 		}
 	],
 	"footer": {
