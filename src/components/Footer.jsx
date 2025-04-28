@@ -3,7 +3,7 @@ import { Code2, Linkedin, Youtube } from "lucide-react";
 import content from "../data/content.json";
 
 const Footer = () => {
-	const { quickLinks, resources, contact, social } = content.footer;
+	const { contact, social } = content.footer;
 	const { title } = content.siteInfo;
 
 	return (
