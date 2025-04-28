@@ -1,29 +1,49 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import content from "../../data/content.json";
-import { ArrowDown } from "lucide-react";
+import { addToWaitlist } from "../../data/Database";
 
 const EmailForm = () => {
 	const [email, setEmail] = useState("");
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [isSubmitted, setIsSubmitted] = useState(false);
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		if (!email) return;
 
 		setIsSubmitting(true);
-		// Simulating API call
-		setTimeout(() => {
-			setIsSubmitting(false);
-			setIsSubmitted(true);
-			setEmail("");
 
-			// Reset success message after 3 seconds
-			setTimeout(() => {
-				setIsSubmitted(false);
-			}, 3000);
-		}, 1000);
+		addToWaitlist(email)
+			.then((data) => {
+				console.log("Response from backend after adding to waitlist", data);
+				setIsSubmitting(false);
+				setIsSubmitted(true);
+				setEmail("");
+
+				// Reset success message after 3 seconds
+				setTimeout(() => {
+					setIsSubmitted(false);
+				}, 3000);
+			})
+			.catch((error) => {
+				console.error("Error adding to waitlist:", error);
+
+				setIsSubmitting(false);
+				setEmail("");
+				setTimeout(() => {
+					setIsSubmitted(false);
+				}, 3000);
+
+				if (error?.code == "23505") {
+					setIsSubmitted(true);
+					alert("You are already on the waitlist!");
+				} else {
+					alert(
+						"Something went wrong. Please try again later or contact anushibin007@gmail.com."
+					);
+				}
+			});
 	};
 
 	const scrollToResources = (e) => {
