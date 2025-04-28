@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Code2 } from 'lucide-react';
 import Button from './ui/Button';
+import content from '../data/content.json';
+
+const { title } = content.siteInfo;
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +29,7 @@ const Header = () => {
         <div className="flex items-center">
           <Code2 className="h-8 w-8 text-blue-600 mr-2" />
           <span className={`font-bold text-xl ${isScrolled ? 'text-blue-600' : 'text-white'}`}>
-            SystemDesignPro
+            {title}
           </span>
         </div>
         <nav className="hidden md:block">
