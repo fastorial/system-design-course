@@ -198,7 +198,7 @@
 	"resources": {
 		"title": "Instant Free Bonuses When You Join the Waitlist",
 		"subtitle": "Get immediate value while waiting for the full course to launch",
-		"items": [
+		"commented_items": [
 			{
 				"id": 1,
 				"title": "System Design Cheatsheet",
@@ -206,14 +206,6 @@
 				"icon": "FileText",
 				"bgColor": "bg-blue-50",
 				"iconColor": "text-blue-600"
-			},
-			{
-				"id": 2,
-				"title": "Beginner-to-Advanced Roadmap",
-				"description": "Step-by-step guide to mastering system design, from fundamentals to expert topics",
-				"icon": "Map",
-				"bgColor": "bg-green-50",
-				"iconColor": "text-green-600"
 			},
 			{
 				"id": 3,
@@ -224,20 +216,30 @@
 				"iconColor": "text-purple-600"
 			},
 			{
-				"id": 4,
-				"title": "Free Preview Lessons",
-				"description": "Get access to selected video lessons from the course to experience the teaching style",
-				"icon": "Play",
-				"bgColor": "bg-red-50",
-				"iconColor": "text-red-600"
-			},
-			{
 				"id": 5,
 				"title": "Mindmaps for Faster Revision",
 				"description": "Visual study guides to help you remember key concepts before interviews",
 				"icon": "FileTerminal",
 				"bgColor": "bg-amber-50",
 				"iconColor": "text-amber-600"
+			}
+		],
+		"items": [
+			{
+				"id": 2,
+				"title": "Beginner-to-Advanced Roadmap",
+				"description": "Step-by-step guide to mastering system design, from fundamentals to expert topics",
+				"icon": "Map",
+				"bgColor": "bg-green-50",
+				"iconColor": "text-green-600"
+			},
+			{
+				"id": 4,
+				"title": "Free Preview Lessons",
+				"description": "Get access to selected video lessons from the course to experience the teaching style",
+				"icon": "Play",
+				"bgColor": "bg-red-50",
+				"iconColor": "text-red-600"
 			},
 			{
 				"id": 6,
