@@ -20,7 +20,7 @@
 	},
 	"whyThisCourse": {
 		"title": "Why You'll Love This Course",
-		"subtitle": "We've built this course to be practical, comprehensive, and directly applicable to both interviews and real-world engineering.",
+		"subtitle": "I've built this course to be practical, comprehensive, and directly applicable to both interviews and real-world engineering.",
 		"features": [
 			{
 				"title": "Interview-Ready System Designs",
@@ -34,16 +34,16 @@
 			},
 			{
 				"title": "Always Up-to-date Content",
-				"description": "The tech world evolves rapidly, and so does our content. Stay current with the latest approaches.",
+				"description": "The tech world evolves rapidly, and so does my content. Stay current with the latest approaches.",
 				"icon": "RefreshCw"
 			},
 			{
-				"title": "Design 9 Real-World Systems",
-				"description": "Build practical systems like Netflix, Twitter, Uber and more from the ground up.",
+				"title": "Design 10 Real-World Systems",
+				"description": "Build practical systems like Uber, YouTube, WhatsApp and more from the ground up.",
 				"icon": "Code"
 			},
 			{
-				"title": "Free Cheatsheets & Templates",
+				"title": "Cheatsheets & Templates",
 				"description": "Get downloadable resources to reference during interviews and when building systems.",
 				"icon": "FileCheck"
 			},
@@ -53,7 +53,7 @@
 				"icon": "Clock"
 			},
 			{
-				"title": "Fast, Practical Learning — No Fluff",
+				"title": "Fast, Practical, No-fluff Learning",
 				"description": "Concise, focused content that respects your time and delivers maximum value.",
 				"icon": "Zap"
 			}
