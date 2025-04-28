@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Code2 } from 'lucide-react';
 import Button from './ui/Button';
 import content from '../data/content.json';
+import { scrollToCallToAction } from '../util/ScrollUtils';
 
 const { title } = content.siteInfo;
 
@@ -48,7 +49,7 @@ const Header = () => {
             ))}
           </ul>
         </nav>
-        <Button size="sm">Join Waitlist</Button>
+        <Button size="sm" onClick={scrollToCallToAction}>Join Waitlist</Button>
       </div>
     </header>
   );

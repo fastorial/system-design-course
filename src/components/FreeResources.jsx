@@ -3,6 +3,7 @@ import { FileText, Map, HelpCircle, Play, FileTerminal, LayoutTemplate } from 'l
 import SectionTitle from './ui/SectionTitle';
 import Button from './ui/Button';
 import content from '../data/content.json';
+import { scrollToCallToAction } from '../util/ScrollUtils';
 
 const iconMap = {
   FileText,
@@ -47,7 +48,7 @@ const FreeResources = () => {
           <p className="text-xl font-medium text-slate-800 mb-6">
             Get all these resources <span className="text-blue-600 font-semibold">instantly</span> when you join the waitlist today!
           </p>
-          <Button size="lg">Join Waitlist Now</Button>
+          <Button size="lg" onClick={scrollToCallToAction}>Join Waitlist Now</Button>
         </div>
       </div>
     </section>

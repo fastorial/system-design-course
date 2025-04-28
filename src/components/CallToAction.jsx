@@ -6,7 +6,7 @@ const { hero } = content;
 
 const CallToAction = () => {
 	return (
-		<section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+		<section id="call-to-action" className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
 			<div className="container mx-auto px-4 text-center">
 				<h2 className="text-3xl md:text-4xl font-bold mb-4">
 					Ready to Master System Design?

@@ -3,6 +3,7 @@ import { ChevronDown, ChevronUp, BookOpen, Unlock, Play } from "lucide-react";
 import SectionTitle from "./ui/SectionTitle";
 import Button from "./ui/Button";
 import content from "../data/content.json";
+import { scrollToCallToAction } from "../util/ScrollUtils";
 
 const SyllabusPreview = () => {
 	const [openModule, setOpenModule] = useState(1);
@@ -122,7 +123,7 @@ const SyllabusPreview = () => {
 							Full curriculum includes 30+ hours of video lessons, exercises, and
 							practical projects.
 						</p>
-						<Button size="lg">Join Waitlist for Full Access</Button>
+						<Button size="lg" onClick={scrollToCallToAction}>Join Waitlist for Full Access</Button>
 					</div>
 				</div>
 			</div>
