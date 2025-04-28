@@ -5,6 +5,6 @@ export default defineConfig({
 	plugins: [react()],
 	optimizeDeps: {
 		exclude: ["lucide-react"],
-		base: "/system-design-course",
 	},
+	base: "/system-design-course",
 });
