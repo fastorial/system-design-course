@@ -44,10 +44,7 @@ const EmailForm = () => {
 				<p className="flex items-center justify-center">
 					<span>
 						Join the waitlist to access free content. Check out the{" "}
-						<span className="text-blue-400">
-							free stuff
-							<ArrowDown className="w-4 h-4 mr-2 inline" />
-						</span>
+						<span className="text-blue-400">free stuff</span>
 					</span>
 				</p>
 			</a>
