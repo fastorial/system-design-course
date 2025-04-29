@@ -48,8 +48,7 @@ const FreeResources = () => {
 				<div className="mt-12 text-center">
 					<p className="text-xl font-medium text-slate-800 mb-6">
 						Get all these resources{" "}
-						<span className="text-blue-600 font-semibold">instantly</span> when you join
-						the waitlist today!
+						<span className="text-blue-600 font-semibold">instantly</span>!
 					</p>
 					<Button size="lg" onClick={scrollToCallToAction}>
 						Join Waitlist Now
