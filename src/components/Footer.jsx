@@ -31,10 +31,10 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col md:flex-row justify-between">
-					<div className="md:w-1/3 mb-6 md:mb-0">
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-[10vw]">
+					<div>
 						<h3 className="font-semibold text-lg mb-3">About {title}</h3>
-						<p className="text-slate-300">
+						<p className="text-slate-300 text-justify">
 							Fastorial started as a{" "}
 							<a className="text-blue-400 hover:text-blue-300" href={social.youtube}>
 								YouTube channel
@@ -49,7 +49,7 @@ const Footer = () => {
 						// No Quick Links and Resources for now
 					}
 
-					<div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+					<div>
 						{/*
 						<div>
 							<h3 className="font-semibold text-lg mb-3">Quick Links</h3>
