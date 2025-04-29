@@ -9,6 +9,7 @@ const RoadmapGenerator = () => {
 	const [experience, setExperience] = useState("");
 	const [duration, setDuration] = useState("");
 	const modules = content.syllabus.modules;
+	const { title, subtitle } = content.roadmapgenerator;
 
 	const generateRoadmap = () => {
 		if (!experience || !duration) return null;
@@ -86,10 +87,7 @@ const RoadmapGenerator = () => {
 	return (
 		<section id="roadmap-generator" className="py-20 bg-white">
 			<div className="container mx-auto px-4">
-				<SectionTitle
-					title="Get Your Free Personalized System Design Roadmap"
-					subtitle="Tell me about your experience and timeline, and I'll create a custom learning path for you"
-				/>
+				<SectionTitle title={title} subtitle={subtitle} />
 
 				<div className="max-w-3xl mx-auto">
 					<div className="bg-slate-50 p-8 rounded-xl mb-8">

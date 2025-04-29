@@ -21,6 +21,13 @@
 	"whyThisCourse": {
 		"title": "Why You'll Love This Course",
 		"subtitle": "I've built this course to be practical, comprehensive, and directly applicable to both interviews and real-world engineering.",
+		"commentedFeatures": [
+			{
+				"title": "Cheatsheets & Templates",
+				"description": "Get downloadable resources to reference during interviews and when building systems.",
+				"icon": "FileCheck"
+			}
+		],
 		"features": [
 			{
 				"title": "Interview-Ready System Designs",
@@ -41,11 +48,6 @@
 				"title": "Design 9 Real-World Systems",
 				"description": "Build practical systems like Uber, YouTube, WhatsApp and more from the ground up.",
 				"icon": "Code"
-			},
-			{
-				"title": "Cheatsheets & Templates",
-				"description": "Get downloadable resources to reference during interviews and when building systems.",
-				"icon": "FileCheck"
 			},
 			{
 				"title": "Lifetime Access and Updates",
@@ -194,6 +196,10 @@
 				"bonus": "1 Free Preview Available!"
 			}
 		]
+	},
+	"roadmapgenerator": {
+		"title": "Get Your Free Personalized System Design Roadmap",
+		"subtitle": "Tell me about your experience and timeline, and I'll create a custom learning path for you"
 	},
 	"resources": {
 		"title": "Instant Free Bonuses",
