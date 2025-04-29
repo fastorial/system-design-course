@@ -21,6 +21,7 @@
 	"whyThisCourse": {
 		"title": "Why You'll Love This Course",
 		"subtitle": "I've built this course to be practical, comprehensive, and directly applicable to both interviews and real-world engineering.",
+		"bgColor": "bg-white",
 		"commentedFeatures": [
 			{
 				"title": "Cheatsheets & Templates",
@@ -64,6 +65,7 @@
 	"syllabus": {
 		"title": "Course Syllabus Preview",
 		"subtitle": "Comprehensive curriculum designed to take you from fundamentals to advanced system design mastery",
+		"bgColor": "bg-slate-50",
 		"modules": [
 			{
 				"id": 1,
@@ -199,11 +201,13 @@
 	},
 	"roadmapgenerator": {
 		"title": "Get Your Free Personalized System Design Roadmap",
-		"subtitle": "Tell me about your experience and timeline, and I'll create a custom learning path for you"
+		"subtitle": "Tell me about your experience and timeline, and I'll create a custom learning path for you",
+		"bgColor": "bg-white"
 	},
 	"resources": {
 		"title": "Instant Free Bonuses",
 		"subtitle": "Get immediate value while waiting for the full course to launch",
+		"bgColor": "bg-slate-50",
 		"commented_items": [
 			{
 				"id": 1,
@@ -258,6 +262,7 @@
 		]
 	},
 	"instructor": {
+		"bgColor": "bg-white",
 		"name": "Anu Shibin Joseph Raj",
 		"role": "Lead Software Engineer",
 		"linkedIn": "https://www.linkedin.com/in/anushibinj/",

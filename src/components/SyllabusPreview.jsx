@@ -7,14 +7,14 @@ import { scrollToCallToAction } from "../util/ScrollUtils";
 
 const SyllabusPreview = () => {
 	const [openModule, setOpenModule] = useState(1);
-	const { title, subtitle, modules } = content.syllabus;
+	const { title, subtitle, modules, bgColor } = content.syllabus;
 
 	const toggleModule = (id) => {
 		setOpenModule(openModule === id ? null : id);
 	};
 
 	return (
-		<section id="syllabus" className="py-20 bg-slate-50">
+		<section id="syllabus" className={`py-20 ${bgColor}`}>
 			<div className="container mx-auto px-4">
 				<SectionTitle title={title} subtitle={subtitle} />
 

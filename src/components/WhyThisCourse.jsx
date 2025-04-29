@@ -14,10 +14,10 @@ const iconMap = {
 };
 
 const WhyThisCourse = () => {
-  const { title, subtitle, features } = content.whyThisCourse;
+  const { title, subtitle, features, bgColor } = content.whyThisCourse;
 
   return (
-    <section id="why" className="py-20 bg-white">
+    <section id="why" className={`py-20 ${bgColor}`}>
       <div className="container mx-auto px-4">
         <SectionTitle 
           title={title} 

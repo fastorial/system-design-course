@@ -15,10 +15,10 @@ const iconMap = {
 };
 
 const FreeResources = () => {
-	const { title, subtitle, items } = content.resources;
+	const { title, subtitle, items, bgColor } = content.resources;
 
 	return (
-		<section id="bonuses" className="py-20 bg-white">
+		<section id="bonuses" className={`py-20 ${bgColor}`}>
 			<div className="container mx-auto px-4">
 				<SectionTitle title={title} subtitle={subtitle} />
 

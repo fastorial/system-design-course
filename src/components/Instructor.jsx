@@ -4,10 +4,10 @@ import SectionTitle from './ui/SectionTitle';
 import content from '../data/content.json';
 
 const Instructor = () => {
-  const { name, role, linkedIn, image, stats, bio } = content.instructor;
+  const { name, role, linkedIn, image, stats, bio, bgColor } = content.instructor;
 
   return (
-    <section id="about" className="py-20 bg-slate-50">
+    <section id="about" className={`py-20 ${bgColor}`}>
       <div className="container mx-auto px-4">
         <SectionTitle 
           title="Meet Your Instructor" 

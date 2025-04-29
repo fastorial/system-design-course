@@ -9,7 +9,7 @@ const RoadmapGenerator = () => {
 	const [experience, setExperience] = useState("");
 	const [duration, setDuration] = useState("");
 	const modules = content.syllabus.modules;
-	const { title, subtitle } = content.roadmapgenerator;
+	const { title, subtitle, bgColor } = content.roadmapgenerator;
 
 	const generateRoadmap = () => {
 		if (!experience || !duration) return null;
@@ -85,7 +85,7 @@ const RoadmapGenerator = () => {
 	const roadmap = generateRoadmap();
 
 	return (
-		<section id="roadmap-generator" className="py-20 bg-white">
+		<section id="roadmap-generator" className={`py-20 ${bgColor}`}>
 			<div className="container mx-auto px-4">
 				<SectionTitle title={title} subtitle={subtitle} />
 
