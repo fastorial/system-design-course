@@ -12,6 +12,17 @@
 		<meta property="og:title" content="%VITE_APP_OG_TITLE%" />
 		<meta property="og:description" content="%VITE_APP_OG_DESCRIPTION%" />
 		<meta property="og:type" content="website" />
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9QP1G1TTFM"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-9QP1G1TTFM");
+		</script>
 	</head>
 	<body>
 		<div id="root"></div>
