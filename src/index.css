@@ -3,16 +3,31 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
 }
 
 .accordion-content.open {
-  max-height: 1000px;
-  transition: max-height 0.5s ease-in;
+	max-height: 1000px;
+	transition: max-height 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fade-in {
+	animation: fadeIn 0.5s ease-out forwards;
 }

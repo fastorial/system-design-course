@@ -9,6 +9,7 @@ import Instructor from "./components/Instructor";
 import CallToAction from "./components/CallToAction";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import RoadmapGenerator from "./components/RoadMapGenerator";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Hero />
 				<WhyThisCourse />
 				<SyllabusPreview />
+				<RoadmapGenerator />
 				<FreeResources />
 				<Instructor />
 				{
