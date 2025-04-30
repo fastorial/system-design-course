@@ -28,13 +28,16 @@ jobs:
             - name: Build 🔥
               run: CI='' npm run build
 
+            - name: Relocation 🚚
+              run: mkdir -p ./out/system-design && mv ./dist/* ./out/system-design
+
             - name: Setup Pages ⚙
               uses: actions/configure-pages@v3
 
             - name: Upload artifact 🔼
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: "./dist"
+                  path: "./out"
 
             - name: Deploy to GitHub Pages 🚀
               id: deployment
