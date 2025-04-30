@@ -187,7 +187,10 @@
 				"title": "Interview & Real-World Readiness",
 				"description": "Prepare specifically for interview success while building practical skills for on-the-job challenges.",
 				"topics": [
-					{ "title": "System design interview tips", "preview": "https://google.com" },
+					{
+						"title": "7 Mistakes to Avoid in System Design Interviews",
+						"preview": "https://youtu.be/W_pDNfjuzP4"
+					},
 					{ "title": "What interviewers really look for" },
 					{ "title": "Whiteboarding best practices" },
 					{ "title": "How to keep your system design skills sharp" },
