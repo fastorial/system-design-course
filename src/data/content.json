@@ -105,8 +105,7 @@
 							}
 						]
 					}
-				],
-				"bonus": "1 Free Preview Available!"
+				]
 			},
 			{
 				"id": 2,
@@ -131,8 +130,7 @@
 					{
 						"title": "Database Sharding & Partitioning"
 					}
-				],
-				"bonus": "1 Free Preview Available!"
+				]
 			},
 			{
 				"id": 3,
@@ -165,8 +163,7 @@
 					},
 					{ "title": "Design Instagram (Social Feed + Image Upload)" },
 					{ "title": "Design Dropbox / Google Drive (File Storage)" }
-				],
-				"bonus": "1 Free Preview Available!"
+				]
 			},
 			{
 				"id": 5,
@@ -197,7 +194,7 @@
 					{ "title": "How to keep your system design skills sharp" },
 					{ "title": "How to explain tradeoffs like an architect" }
 				],
-				"bonus": "1 Free Preview & PDF Available!"
+				"bonus": "1 Free Video & PDF Available!"
 			}
 		]
 	},
