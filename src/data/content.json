@@ -238,6 +238,18 @@
 		],
 		"items": [
 			{
+				"id": 1,
+				"title": "System Design Tips Cheatsheets",
+				"description": "Comprehensive PDFs covering tips and tricks for system design concepts and patterns",
+				"icon": "FileText",
+				"bgColor": "bg-blue-50",
+				"iconColor": "text-blue-600",
+				"url": {
+					"text": "Check out the PDFs",
+					"href": "#syllabus"
+				}
+			},
+			{
 				"id": 2,
 				"title": "Interactive Beginner-to-Advanced Roadmap",
 				"description": "Step-by-step guide to mastering system design, from fundamentals to expert topics",

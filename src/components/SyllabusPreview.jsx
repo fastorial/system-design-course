@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, ChevronUp, BookOpen, Unlock, Play } from "lucide-react";
+import { ChevronDown, ChevronUp, BookOpen, Unlock, Play, DownloadCloud } from "lucide-react";
 import SectionTitle from "./ui/SectionTitle";
 import Button from "./ui/Button";
 import content from "../data/content.json";
@@ -80,6 +80,14 @@ const SyllabusPreview = () => {
 															<span className="flex text-sm text-blue-600 font-medium items-center">
 																<Play className="size-sm" />
 																Watch for free
+															</span>
+														</a>
+													)}
+													{topic.pdf && (
+														<a href={topic.pdf} target="_blank">
+															<span className="flex text-sm text-blue-600 font-medium items-center">
+																<DownloadCloud className="size-sm" />
+																Download PDF
 															</span>
 														</a>
 													)}
