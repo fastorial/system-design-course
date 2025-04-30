@@ -92,8 +92,7 @@
 								"title": "Database"
 							},
 							{
-								"title": "Cache",
-								"preview": "https://google.com"
+								"title": "Cache"
 							},
 							{
 								"title": "Messaging Queues"
@@ -117,7 +116,7 @@
 					{
 						"title": "Rate limiting & Throttling"
 					},
-					{ "title": "CAP Theorem", "preview": "https://google.com" },
+					{ "title": "CAP Theorem" },
 					{
 						"title": "Scaling",
 						"subtopics": [
@@ -162,8 +161,7 @@
 					{ "title": "Design WhatsApp (Messaging System)" },
 					{ "title": "Design YouTube (Video Streaming Platform)" },
 					{
-						"title": "Design Uber (Ride Sharing Platform)",
-						"preview": "https://google.com"
+						"title": "Design Uber (Ride Sharing Platform)"
 					},
 					{ "title": "Design Instagram (Social Feed + Image Upload)" },
 					{ "title": "Design Dropbox / Google Drive (File Storage)" }
@@ -256,7 +254,7 @@
 				"iconColor": "text-red-600",
 				"url": {
 					"text": "Watch the free preview YouTube playlist",
-					"href": "https://google.com"
+					"href": "https://youtube.com/playlist?list=PLFsDocJcusVxL4-nGuSZjjfcU6So18mxA&si=n6tYcWsSaBCfpKx9"
 				}
 			}
 		]
