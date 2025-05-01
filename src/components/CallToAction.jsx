@@ -1,12 +1,16 @@
 import React from "react";
 import EmailForm from "./ui/EmailForm";
 import content from "../data/content.json";
+import SignedUpUsersCount from "./SignedUpUsersCount";
 
 const { hero } = content;
 
 const CallToAction = () => {
 	return (
-		<section id="call-to-action" className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+		<section
+			id="call-to-action"
+			className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white"
+		>
 			<div className="container mx-auto px-4 text-center">
 				<h2 className="text-3xl md:text-4xl font-bold mb-4">
 					Ready to Master System Design?
@@ -23,7 +27,7 @@ const CallToAction = () => {
 				<div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
 					<div className="flex items-center text-white/80">
 						<span className="text-2xl font-bold mr-2 text-white">
-							{hero.stats.engineersJoined}
+							<SignedUpUsersCount />
 						</span>
 						<span>engineers already joined</span>
 					</div>

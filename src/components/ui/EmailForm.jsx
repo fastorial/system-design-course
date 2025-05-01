@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
-import content from "../../data/content.json";
 import { addToWaitlist } from "../../data/Database";
+import SignedUpUsersCount from "../SignedUpUsersCount";
 
 const EmailForm = () => {
 	const [email, setEmail] = useState("");
@@ -54,6 +54,14 @@ const EmailForm = () => {
 		}
 	};
 
+	const getJoinButtonText = () => {
+		return (
+			<>
+				Join <SignedUpUsersCount />+ Engineers
+			</>
+		);
+	};
+
 	return (
 		<div className="w-full">
 			<a
@@ -83,11 +91,7 @@ const EmailForm = () => {
 					disabled={isSubmitting}
 					className="whitespace-nowrap"
 				>
-					{isSubmitting
-						? "Joining..."
-						: isSubmitted
-						? "Success! ✓"
-						: `Join ${content.hero.stats.engineersJoined}+ Engineers`}
+					{isSubmitting ? "Joining..." : isSubmitted ? "Success! ✓" : getJoinButtonText()}
 				</Button>
 			</form>
 		</div>

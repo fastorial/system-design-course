@@ -1,8 +1,7 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
-import Button from "./ui/Button";
 import EmailForm from "./ui/EmailForm";
 import content from "../data/content.json";
+import SignedUpUsersCount from "./SignedUpUsersCount";
 
 const Hero = () => {
 	const { title, highlight, subtitle, description, stats } = content.hero;
@@ -59,7 +58,7 @@ const Hero = () => {
               */}
 							<div className="ml-2 text-white">
 								<span className="font-bold text-blue-400 text-lg">
-									{stats.engineersJoined} engineers
+									<SignedUpUsersCount /> engineers
 								</span>{" "}
 								already joined!
 							</div>
