@@ -6,7 +6,7 @@ import content from "../data/content.json";
 import { scrollToCallToAction } from "../util/ScrollUtils";
 
 const SyllabusPreview = () => {
-	const [openModule, setOpenModule] = useState(1);
+	const [openModule, setOpenModule] = useState(0);
 	const { title, subtitle, modules, bgColor } = content.syllabus;
 
 	const toggleModule = (id) => {
