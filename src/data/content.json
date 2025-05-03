@@ -158,6 +158,7 @@
 					{ "title": "Designing a Notification System (Push + Email)" },
 					{
 						"title": "Design WhatsApp (Messaging System)",
+						"preview": "https://www.youtube.com/watch?v=iMu-Q5MN9QI",
 						"pdf": "WhatsApp%20High%20Level%20System%20Design%20Cheatsheet%20-%20Fastorial.pdf"
 					},
 					{ "title": "Design YouTube (Video Streaming Platform)" },
@@ -166,7 +167,8 @@
 					},
 					{ "title": "Design Instagram (Social Feed + Image Upload)" },
 					{ "title": "Design Dropbox / Google Drive (File Storage)" }
-				]
+				],
+				"bonus": "1 Free Video & Cheatsheet PDF Available!"
 			},
 			{
 				"id": 5,
