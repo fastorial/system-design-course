@@ -156,7 +156,10 @@
 
 					{ "title": "Designing an API Gateway" },
 					{ "title": "Designing a Notification System (Push + Email)" },
-					{ "title": "Design WhatsApp (Messaging System)" },
+					{
+						"title": "Design WhatsApp (Messaging System)",
+						"pdf": "WhatsApp%20High%20Level%20System%20Design%20Cheatsheet%20-%20Fastorial.pdf"
+					},
 					{ "title": "Design YouTube (Video Streaming Platform)" },
 					{
 						"title": "Design Uber (Ride Sharing Platform)"
