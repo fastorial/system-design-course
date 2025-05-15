@@ -203,7 +203,7 @@
 			}
 		]
 	},
-	"roadmapgenerator": {
+	"roadmap": {
 		"title": "Get Your Free Personalized System Design Roadmap",
 		"subtitle": "Tell me about your experience and timeline, and I'll create a custom learning path for you",
 		"bgColor": "bg-white"

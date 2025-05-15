@@ -3,7 +3,7 @@ export const scrollToCallToAction = (e) => {
 };
 
 export const scrollToRoadmapGenerator = (e) => {
-	scrollToDivById(e, "roadmap-generator");
+	scrollToDivById(e, "roadmap");
 };
 
 const scrollToDivById = (e, divId) => {

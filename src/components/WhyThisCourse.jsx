@@ -17,7 +17,7 @@ const WhyThisCourse = () => {
   const { title, subtitle, features, bgColor } = content.whyThisCourse;
 
   return (
-    <section id="why" className={`py-20 ${bgColor}`}>
+    <section id="highlights" className={`py-20 ${bgColor}`}>
       <div className="container mx-auto px-4">
         <SectionTitle 
           title={title} 
