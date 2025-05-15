@@ -295,28 +295,74 @@
 	},
 	"testimonials": [
 		{
+			"id": 0,
+			"name": "divyagracie",
+			"content": "Thank you sir"
+		},
+		{
 			"id": 1,
-			"name": "Alex Chen",
-			"role": "Senior Software Engineer",
-			"content": "This course explains system design like no other — simple, practical, and interview-focused! I received multiple offers after applying what I learned.",
-			"rating": 5,
-			"image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+			"name": "karpagammohan6605",
+			"content": "Thank you so much for the detailed step by step explanation on the installation part and sample war file deployment !! You are Awesome!!"
 		},
 		{
 			"id": 2,
-			"name": "Priya Sharma",
-			"role": "Backend Developer",
-			"content": "Finally, a course that connects theory to real-world system building! I used the techniques from module 4 in my recent work project and got praise from my tech lead.",
-			"rating": 5,
-			"image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+			"name": "sumitswelsor",
+			"content": "Nicely explained, thanks you got a subscriber :)"
 		},
 		{
 			"id": 3,
-			"name": "Michael Torres",
-			"role": "Full Stack Engineer",
-			"content": "The diagrams and visual explanations made complex topics easy to understand. Before this course, I would panic when asked about system design in interviews.",
-			"rating": 4,
-			"image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+			"name": "harishmn3916",
+			"content": "Thanks for  giving a  quick learning... Ending with cloud tips"
+		},
+		{
+			"id": 4,
+			"name": "SajidAli-zy1mb",
+			"content": "You are just amazing... the explanation is so helpful and clear to understand"
+		},
+		{
+			"id": 5,
+			"name": "SamBluffer",
+			"content": "Thanks a ton for the step to step guide of WebSphere with the installation. I'm a newbie with WebSphere and your video helped me a lot."
+		},
+		{
+			"id": 6,
+			"name": "smallikarjuna551",
+			"content": "your teaching ways is tooooooooooooooo much good i am very impressed with this session , please make videos on fix packs and SSL renewal . Thank you so much"
+		},
+		{
+			"id": 7,
+			"name": "bernardkengen",
+			"content": "Thank you very much !!! Just all what I tried to do for weeks"
+		},
+		{
+			"id": 8,
+			"name": "sandhyan3273",
+			"content": "Thanks for sharing knowledge and way of your explanation was easy understandable"
+		},
+		{
+			"id": 9,
+			"name": "antonioalexand...",
+			"content": "Thank you Anu! Great video!"
+		},
+		{
+			"id": 10,
+			"name": "kambingbandot6618",
+			"content": "thank you for information and lesson. clearly good explaination"
+		},
+		{
+			"id": 11,
+			"name": "rajapraveenkumar3485",
+			"content": "Thanks.. Man.. I was waiting for This kind of video since Many days... Thanks alot... it helped a lot..."
+		},
+		{
+			"id": 11,
+			"name": "RonneyNigro",
+			"content": "Greate Job TKS from a Braziian Developer"
+		},
+		{
+			"id": 12,
+			"name": "mohamedahassan1566",
+			"content": "your teaching ways are too good I'm impressed with this session, please share your contact for private training."
 		}
 	],
 	"faqs": [

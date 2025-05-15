@@ -5,7 +5,7 @@ import WhyThisCourse from "./components/WhyThisCourse";
 import SyllabusPreview from "./components/SyllabusPreview";
 import FreeResources from "./components/FreeResources";
 import Instructor from "./components/Instructor";
-// import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 import CallToAction from "./components/CallToAction";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
@@ -24,7 +24,7 @@ function App() {
 				<Instructor />
 				{
 					// No need Testimonials for now
-					//<Testimonials />
+					<Testimonials />
 				}
 				<CallToAction />
 				<FAQ />
